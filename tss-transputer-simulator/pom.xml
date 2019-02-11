@@ -143,7 +143,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>uk.co.transputersystems.transputer.simulator.Simulator</mainClass>
+                                    <mainClass>uk.co.transputersystems.transputer.simulator.SimulatorApplication</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -172,7 +172,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>8.4.0</version>
                 <configuration>
-                    <mainClass>uk.co.transputersystems.transputer.simulator.Simulator</mainClass>
+                    <mainClass>uk.co.transputersystems.transputer.simulator.SimulatorApplication</mainClass>
                     <verbose>true</verbose>
                     <additionalAppResources>etc</additionalAppResources>
                 </configuration>
