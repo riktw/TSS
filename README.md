@@ -50,3 +50,11 @@ This project relies on a number of excellent libraries.
 ## Other tools
 
 You can install our [language-occam](https://atom.io/packages/language-occam) package for occam syntax highlighting in Atom.
+
+
+### Added info (RtW)
+I have zero experience with Java or Maven, try the changed I made at your own risk...
+Build with: 
+mvn clean install
+A small fix in the pom.xml fixed the simulator executable.
+In every folder, in the target folder the "somethingsomethng-with-dependencies.jar" seems to be the executable, run with java -jar

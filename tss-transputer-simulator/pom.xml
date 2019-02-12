@@ -137,7 +137,7 @@
                     <execution>
                         <id>make-compiler-assembly</id>
                         <configuration>
-                            <finalName>occam-compiler</finalName>
+                            <finalName>transputer-simulator</finalName>
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>
                             </descriptorRefs>

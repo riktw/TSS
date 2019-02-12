@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-java -jar "tss-occam-compiler-1.0-SNAPSHOT-jfx.jar" "$@"
+java -jar "../target/occam-compiler-jar-with-dependencies.jar" "$@"
